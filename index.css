@@ -1,0 +1,199 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    height: 109px;
+    background-color: #C4C4C4;
+}
+
+header h1{
+    color: black;
+    margin-left : 10px ;
+}
+
+
+header div{
+    
+    width: 225;
+    height: 49px;
+    margin-top: 30px;
+    
+    
+}
+
+header div a{
+    display: inline-block ;
+    width: 50px ;
+    height: 49px ;
+    color: black ;
+    
+}
+
+
+
+/*---Main apresentação---*/
+
+.about {
+    width: 1440px ;
+    height: 318px ;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F3;
+    
+}
+
+
+.about img{
+    width: 247px ;
+    height: 247px  ;
+    margin-right : 100px ;
+    border-radius : 200px ;
+}
+
+
+
+
+.about div{
+   /* margin-left: 100px; */
+
+}
+
+
+
+.about p{
+    width: 614px ;
+    height: 134px ;
+    font-size: 14px;
+}
+
+
+/*----------------Section Lists----------------------*/
+
+.lists{
+    width: 1440px;
+    height: 289px;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.passatempo ul{
+    width: 595px;
+    gap: 15px;  
+    display: flex;
+    flex-direction: row;
+
+}
+
+.passatempo img{
+    width: 102px;
+    height: 150px;
+}
+
+
+
+
+
+
+.top ol{
+    width: 595px;
+    gap: 15px;  
+    display: flex;
+    display: row;
+
+}
+
+.top img{
+    width: 102px;
+    height: 150px;   
+}
+
+
+
+
+/*---------------section feed-back---------------------*/
+
+
+.comments{
+    width: 1168px ;
+    height: 236px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+.comments div form input{
+    width: 1128px;
+    height: 56px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.comments h2{
+    width: 102px;
+    height: 33px ;
+}
+
+
+/*-------------footer----------------------*/
+
+
+
+footer{
+    width: 1440px;
+    height: 70px;
+    background-color: #C4C4C4;
+    padding-top : 16px ;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 897px;
+    
+}
+
+
+.redesSocias{
+    width: 188px;
+    height: 32px ;
+    padding-left: 30px ;
+    gap: 50px;
+}
+
+.redesSocias img{
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px ;
+    margin-left: 5px;
+
+}
+
+
+.contato a button{
+    width: 162px;
+    height: 38px;
+    border-radius: 6px ;
+    border: 1px solid #C4C4C4;
+}
+
+
